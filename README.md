@@ -65,6 +65,13 @@ If you would like to preview the emails before using them, copy the contents of 
 ## Screen Shots
 
 <a name="welcomeEmail"></a>
-![Welcome Message](./pleb-Welcome-Message.png "Welcome Message")
-![Welcome Message](./pleb-Welcome-Message-mobile.png "Welcome Message")
+Full Size 
+
+<img src="./pleb-Welcome-Message.png" width="400">
+
+Mobile View
+
+<img src="./pleb-Welcome-Message-mobile.png" width="200">
+
+
 
