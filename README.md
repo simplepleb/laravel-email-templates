@@ -3,10 +3,11 @@ Laravel (Blade) Email Templates For membership and ecommerce sites.
 
 ## Screenshots
 - [Welcome Email](#welcomeEmail)
+- [Verification Email](#verifyEmail)
 
 ## To Do
 - [x] Welcome Message Template
-- [ ] Verify Email Template
+- [x] Verify Email Template
 - [ ] Forgot Password Template
 - [ ] Order Placed Template
 - [ ] Order Shipped Template
@@ -77,6 +78,8 @@ If you would like to preview the emails before using them, copy the contents of 
 ## Screen Shots
 
 <a name="welcomeEmail"></a>
+### Welcome Email
+
 Full Size 
 
 <img src="./pleb-Welcome-Message.png" width="400">
@@ -84,6 +87,17 @@ Full Size
 Mobile View
 
 <img src="./pleb-Welcome-Message-mobile.png" width="200">
+
+<a name="verifyEmail"></a>
+### Verification Email
+
+Full Size
+
+<img src="./pleb-Verify-Your-Email.png" width="400">
+
+Mobile View
+
+<img src="./pleb-Verify-Your-Email-mobile.png" width="200">
 
 
 
