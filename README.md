@@ -1,7 +1,19 @@
 # laravel-mails
 Laravel (Blade) Email Templates For membership and ecommerce sites.
 
+## Screenshots
 - [Welcome Email](#welcomeEmail)
+
+## To Do
+- [x] Welcome Message Template
+- [ ] Verify Email Template
+- [ ] Forgot Password Template
+- [ ] Order Placed Template
+- [ ] Order Shipped Template
+- [ ] Invoice Template
+- [ ] Payment Thank You Template
+- [ ] Feedback Request Template
+- [ ] Reminder Template
 
 ## How to Use
 
