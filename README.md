@@ -4,11 +4,12 @@ Laravel (Blade) Email Templates For membership and ecommerce sites.
 ## Screenshots
 - [Welcome Email](#welcomeEmail)
 - [Verification Email](#verifyEmail)
+- [Forgot Password](#forgotPass)
 
 ## To Do
 - [x] Welcome Message Template
 - [x] Verify Email Template
-- [ ] Forgot Password Template
+- [x] Forgot Password Template
 - [ ] Order Placed Template
 - [ ] Order Shipped Template
 - [ ] Invoice Template
@@ -98,4 +99,16 @@ Full Size
 Mobile View
 
 <img src="./pleb-Verify-Your-Email-mobile.png" width="200">
+
+
+<a name="forgotPass"></a>
+### Forgot Password Email
+
+Full Size
+
+<img src="./pleb-Forgot-Password.png" width="400">
+
+Mobile View
+
+<img src="./pleb-Forgot-Password-mobile.png" width="200">
 

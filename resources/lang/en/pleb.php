@@ -22,6 +22,11 @@
         'Verify Your Email Account' => 'Verify Your Email Account',
         'Verify Paragraph' => 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.',
         'Verify Action Button'  => 'Click To Verify Email',
+        // Forgot Password Template
+        'Forgot Password Title' => 'Forgot Password',
+        'Forgot your password'  => 'Forgot your password',
+        'Forgot Paragraph'      => 'Click on the button below to reset your password, you have 24 hours to pick your password. After that, you\'ll have to ask for a new one.',
+        'pw_reset_button'        => 'RESET PASSWORD',
     ],
 
 ];
