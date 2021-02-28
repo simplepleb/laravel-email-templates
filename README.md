@@ -5,6 +5,7 @@ Laravel (Blade) Email Templates For membership and ecommerce sites.
 - [Welcome Email](#welcomeEmail)
 - [Verification Email](#verifyEmail)
 - [Forgot Password](#forgotPass)
+- [Thanks For Payment](#thanksPayment)
 
 ## To Do
 - [x] Welcome Message Template
@@ -13,7 +14,7 @@ Laravel (Blade) Email Templates For membership and ecommerce sites.
 - [ ] Order Placed Template
 - [ ] Order Shipped Template
 - [ ] Invoice Template
-- [ ] Payment Thank You Template
+- [x] Payment Thank You Template
 - [ ] Feedback Request Template
 - [ ] Reminder Template
 
@@ -111,4 +112,16 @@ Full Size
 Mobile View
 
 <img src="./pleb-Forgot-Password-mobile.png" width="200">
+
+
+<a name="thanksPayment"></a>
+### Thanks For Payment Email
+
+Full Size
+
+<img src="./pleb-Thanks-for-your-payment.png" width="400">
+
+Mobile View
+
+<img src="./pleb-Thanks-for-your-payment-mobile.png" width="200">
 

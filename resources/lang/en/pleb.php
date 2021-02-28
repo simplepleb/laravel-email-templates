@@ -27,6 +27,16 @@
         'Forgot your password'  => 'Forgot your password',
         'Forgot Paragraph'      => 'Click on the button below to reset your password, you have 24 hours to pick your password. After that, you\'ll have to ask for a new one.',
         'pw_reset_button'        => 'RESET PASSWORD',
+        // Thank you Payment Template
+        'Payment Thank You Title'   => 'Thanks for your payment',
+        'Thanks for your payment'   => 'Thanks for your payment',
+        'Thank you paragraph'       => 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod dolore lorem tempor incididunt ut labore et dolore.',
+        'Attached your receipt'     => 'We\'ve Attached your receipt to this email',
+        'Invoice ID'                => 'Invoice ID',
+        'Total'                     => 'Total',
+        'Download Now'              => 'DOWNLOAD NOW',
+        'If you have any questions' => 'If you have any questions or feedback, just',
+        'reply to this email'       => 'reply to this email',
     ],
 
 ];
