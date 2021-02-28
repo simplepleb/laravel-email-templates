@@ -1,5 +1,9 @@
 # laravel-mails
-Laravel (Blade) Email Templates For membership and ecommerce sites.
+Laravel (Blade) Email Templates For membership and ecommerce sites. 
+
+Fully integrated with Laravel: Mailer, Language, Config and uses the blade template format for Laravel. Set content options from language system or config settings. 
+
+Easy to add to your current application, no need for complicated integration steps. Three Simple Integration Steps
 
 ## Screenshots
 - [Welcome Email](#welcomeEmail)
