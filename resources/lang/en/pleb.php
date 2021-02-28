@@ -17,6 +17,11 @@
         'icon_three'        => 'https://www.simple-pleb.com/assets/img/emails/Email-1_Icon-3.png',
         'WEB VERSION'       => 'WEB VERSION',
         'SEND TO A FRIEND'  => 'SEND TO A FRIEND',
+        // Verify Email Template
+        'Verify Title'      => 'Verify Your Email',
+        'Verify Your Email Account' => 'Verify Your Email Account',
+        'Verify Paragraph' => 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.',
+        'Verify Action Button'  => 'Click To Verify Email',
     ],
 
 ];
