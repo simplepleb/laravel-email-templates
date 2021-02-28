@@ -244,7 +244,7 @@
                                 <td class="center-text"  align="center" style="font-family:'Roboto Slab',Arial,Helvetica,sans-serif;font-size:32px;line-height:42px;font-weight:400;font-style:normal;color:#282828;text-decoration:none;letter-spacing:0px;">
 
                                     <div  >
-                                        What's next
+                                        {{ __('What\'s Next') }}
                                     </div>
 
                                 </td>
@@ -289,7 +289,7 @@
                                                         <td class="center-text"  align="left" style="font-family:'Roboto Slab',Arial,Helvetica,sans-serif;font-size:20px;line-height:28px;font-weight:400;font-style:normal;color:#343e9e;text-decoration:none;letter-spacing:0px;">
 
                                                             <div  >
-                                                                Headline
+                                                                {{ __('pleb.mail.Headline One') }}
                                                             </div>
 
                                                         </td>
@@ -301,7 +301,7 @@
                                                         <td class="center-text container-padding"  align="left" style="font-family:'Poppins',Arial,Helvetica,sans-serif;font-size:14px;line-height:24px;font-weight:400;font-style:normal;color:#6e6e6e;text-decoration:none;letter-spacing:0px;">
 
                                                             <div  >
-                                                                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                                                {{ __('pleb.mail.Paragraph One') }}
                                                             </div>
 
                                                         </td>
@@ -374,7 +374,7 @@
                                                         <td class="center-text"  align="left" style="font-family:'Roboto Slab',Arial,Helvetica,sans-serif;font-size:20px;line-height:28px;font-weight:400;font-style:normal;color:#343e9e;text-decoration:none;letter-spacing:0px;">
 
                                                             <div  >
-                                                                Headline
+                                                                {{ __('pleb.mail.Headline Two') }}
                                                             </div>
 
                                                         </td>
@@ -386,7 +386,7 @@
                                                         <td class="center-text container-padding"  align="left" style="font-family:'Poppins',Arial,Helvetica,sans-serif;font-size:14px;line-height:24px;font-weight:400;font-style:normal;color:#6e6e6e;text-decoration:none;letter-spacing:0px;">
 
                                                             <div  >
-                                                                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                                                {{ __('pleb.mail.Paragraph Two') }}
                                                             </div>
 
                                                         </td>
@@ -459,7 +459,7 @@
                                                         <td class="center-text"  align="left" style="font-family:'Roboto Slab',Arial,Helvetica,sans-serif;font-size:20px;line-height:28px;font-weight:400;font-style:normal;color:#343e9e;text-decoration:none;letter-spacing:0px;">
 
                                                             <div  >
-                                                                Headline
+                                                                {{ __('pleb.mail.Headline Three') }}
                                                             </div>
 
                                                         </td>
@@ -471,7 +471,7 @@
                                                         <td class="center-text container-padding"  align="left" style="font-family:'Poppins',Arial,Helvetica,sans-serif;font-size:14px;line-height:24px;font-weight:400;font-style:normal;color:#6e6e6e;text-decoration:none;letter-spacing:0px;">
 
                                                             <div  >
-                                                                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                                                {{ __('pleb.mail.Paragraph Three') }}
                                                             </div>
 
                                                         </td>
@@ -636,49 +636,7 @@
                             </tr>
                             <tr  >
                                 <td align="center">
-                                    @if($options['unsubscribe_url'] || $options['webview_url'] || $options['sendfriend_url'])
-                                        <table border="0" align="center" cellpadding="0" cellspacing="0" role="presentation">
-                                            <tr class="center-on-mobile">
-                                                <td    class="rwd-on-mobile center-text" align="center" style="font-family:'Poppins',Arial,Helvetica,sans-serif;font-size:14px;line-height:24px;font-weight:400;font-style:normal;color:#6e6e6e;text-decoration:none;letter-spacing:0px;">
-                                                    @if($options['unsubscribe_url'] != '' )
-                                                        <a href="{{ $options['unsubscribe_url']  }}"  style="font-family:'Poppins',Arial,Helvetica,sans-serif;font-size:14px;font-weight:400;line-height:24px;color:#6e6e6e;text-decoration:none;">{{ __('UNSUBSCRIBE') }}</a>
-                                                    @endif
-                                                </td>
-                                                <td   class="hide-mobile" align="center" valign="middle">
-                                                    @if($options['unsubscribe_url'] && ( $options['webview_url'] || $options['sendfriend_url']  ) )
-                                                        <table border="0" align="center" cellpadding="0" cellspacing="0" role="presentation">
-                                                            <tr>
-                                                                <td width="5"></td>
-                                                                <td class="center-text"  align="center" style="font-family:'Poppins',Arial,Helvetica,sans-serif;font-size:14px;line-height:24px;font-weight:400;font-style:normal;color:#6e6e6e;text-decoration:none;letter-spacing:0px;">|</td>
-                                                                <td width="5"></td>
-                                                            </tr>
-                                                        </table>
-                                                    @endif
-                                                </td>
-                                                <td    class="rwd-on-mobile center-text" align="center" style="font-family:'Poppins',Arial,Helvetica,sans-serif;font-size:14px;line-height:24px;font-weight:400;font-style:normal;color:#6e6e6e;text-decoration:none;letter-spacing:0px;">
-                                                    @if($options['webview_url'] )
-                                                        <a href="{{ $options['webview_url'] }}"  style="font-family:'Poppins',Arial,Helvetica,sans-serif;font-size:14px;font-weight:400;line-height:24px;color:#6e6e6e;text-decoration:none;">{{ __('pleb.mail.WEB VERSION') }}</a>
-                                                    @endif
-                                                </td>
-                                                <td   class="hide-mobile" align="center" valign="middle">
-                                                    @if($options['webview_url'] && $options['sendfriend_url'] )
-                                                        <table border="0" align="center" cellpadding="0" cellspacing="0" role="presentation">
-                                                            <tr>
-                                                                <td width="5"></td>
-                                                                <td class="center-text"  align="center" style="font-family:'Poppins',Arial,Helvetica,sans-serif;font-size:14px;line-height:24px;font-weight:400;font-style:normal;color:#6e6e6e;text-decoration:none;letter-spacing:0px;">|</td>
-                                                                <td width="5"></td>
-                                                            </tr>
-                                                        </table>
-                                                    @endif
-                                                </td>
-                                                <td    class="rwd-on-mobile center-text" align="center" style="font-family:'Poppins',Arial,Helvetica,sans-serif;font-size:14px;line-height:24px;font-weight:400;font-style:normal;color:#6e6e6e;text-decoration:none;letter-spacing:0px;">
-                                                    @if($options['sendfriend_url'] != '')
-                                                        <a href="{{ $options['sendfriend_url'] }}"  style="font-family:'Poppins',Arial,Helvetica,sans-serif;font-size:14px;font-weight:400;line-height:24px;color:#6e6e6e;text-decoration:none;">{{ __('pleb.mail.SEND TO A FRIEND') }}</a>
-                                                    @endif
-                                                </td>
-                                            </tr>
-                                        </table>
-                                    @endif
+
                                 </td>
                             </tr>
                             <tr>

@@ -69,12 +69,22 @@ variables as an array.
 If you would like to preview the emails before using them, copy the contents of the 
 ```/routes/web.php``` to your version. Remember to remove these routes before launching your application.
 
+Then open these URLS to view the template
+
+* ```/your.com/pleb/welcome_member```
+* ```/your.com/pleb/verify_email```
+* ```/your.com/pleb/forgot_password```
+* ```/your.com/pleb/thanks_payment```
+
+Example route from ``` routes/web.php ```
+
 ```php
-    Route::get('welcome_member', function () {
+    Route::get('pleb/welcome_member', function () {
     
         $member = App\User::find(1);
         return new App\Mail\WelcomeMember($member);
     });
+
 ```
 
 ## Screen Shots

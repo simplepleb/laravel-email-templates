@@ -189,7 +189,7 @@
                                                         <td align="center" height="50" style="height:50px;">
                                                 <![endif]-->
 
-                                                <a href="#" target="_blank"    style="font-family:'Roboto Slab',Arial,Helvetica,sans-serif;font-size:16px;line-height:19px;font-weight:700;font-style:normal;color:#000000;text-decoration:none;letter-spacing:0px;padding: 20px 50px 20px 50px;display: inline-block;"><span>{{ __('pleb.mail.pw_reset_button') }}</span></a>
+                                                <a href="{{ $options['reset_link'] }}" target="_blank"    style="font-family:'Roboto Slab',Arial,Helvetica,sans-serif;font-size:16px;line-height:19px;font-weight:700;font-style:normal;color:#000000;text-decoration:none;letter-spacing:0px;padding: 20px 50px 20px 50px;display: inline-block;"><span>{{ __('pleb.mail.pw_reset_button') }}</span></a>
 
                                                 <!--[if (gte mso 9)|(IE)]>
                                                 </td>
