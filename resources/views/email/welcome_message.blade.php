@@ -16,6 +16,7 @@
     <meta name="format-detection" content="date=no"> <!-- disable auto date linking in iOS -->
     <meta name="format-detection" content="address=no"> <!-- disable auto address linking in iOS -->
     <meta name="format-detection" content="email=no"> <!-- disable auto email linking in iOS -->
+    <meta name="author" content="Simple-Pleb.com">
     <title>{{ __('pleb.mail.Welcome Title') }} | {{ config('app.name') }}</title>
 
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
