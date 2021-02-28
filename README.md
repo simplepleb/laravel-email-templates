@@ -99,16 +99,3 @@ Mobile View
 
 <img src="./pleb-Verify-Your-Email-mobile.png" width="200">
 
-<a name="verifyEmail"></a>
-### Verification Email
-
-Full Size
-
-<img src="./pleb-Verify-Your-Email.png" width="400">
-
-Mobile View
-
-<img src="./pleb-Verify-Your-Email-mobile.png" width="400">
-
-
-
