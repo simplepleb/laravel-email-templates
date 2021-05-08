@@ -5,6 +5,11 @@ Fully integrated with Laravel: Mailer, Language, Config and uses the blade templ
 
 Easy to add to your current application, no need for complicated integration steps. Three Simple Integration Steps
 
+## Premium Version Available At XSCode
+
+[![Foo](https://xscode.com/assets/promo-banner.svg)](https://xscode.com/simplepleb/laravel-email-templates)
+
+(click the banner above for premium version)
 ## Screenshots
 - [Welcome Email](#welcomeEmail)
 - [Verification Email](#verifyEmail)
@@ -98,22 +103,22 @@ Example route from ``` routes/web.php ```
 
 Full Size 
 
-<img src="./pleb-Welcome-Message.png" width="400">
+<img src="https://github.com/simplepleb/laravel-email-templates/raw/main/pleb-Welcome-Message.png" width="400">
 
 Mobile View
 
-<img src="./pleb-Welcome-Message-mobile.png" width="200">
+<img src="https://github.com/simplepleb/laravel-email-templates/raw/main/pleb-Welcome-Message-mobile.png" width="200">
 
 <a name="verifyEmail"></a>
 ### Verification Email
 
 Full Size
 
-<img src="./pleb-Verify-Your-Email.png" width="400">
+<img src="https://github.com/simplepleb/laravel-email-templates/raw/main/pleb-Verify-Your-Email.png" width="400">
 
 Mobile View
 
-<img src="./pleb-Verify-Your-Email-mobile.png" width="200">
+<img src="https://github.com/simplepleb/laravel-email-templates/raw/main/pleb-Verify-Your-Email-mobile.png" width="200">
 
 
 <a name="forgotPass"></a>
@@ -121,11 +126,11 @@ Mobile View
 
 Full Size
 
-<img src="./pleb-Forgot-Password.png" width="400">
+<img src="https://github.com/simplepleb/laravel-email-templates/raw/main/pleb-Forgot-Password.png" width="400">
 
 Mobile View
 
-<img src="./pleb-Forgot-Password-mobile.png" width="200">
+<img src="https://github.com/simplepleb/laravel-email-templates/raw/main/pleb-Forgot-Password-mobile.png" width="200">
 
 
 <a name="thanksPayment"></a>
@@ -133,9 +138,9 @@ Mobile View
 
 Full Size
 
-<img src="./pleb-Thanks-for-your-payment.png" width="400">
+<img src="https://github.com/simplepleb/laravel-email-templates/raw/main/pleb-Thanks-for-your-payment.png" width="400">
 
 Mobile View
 
-<img src="./pleb-Thanks-for-your-payment-mobile.png" width="200">
+<img src="https://github.com/simplepleb/laravel-email-templates/raw/main/pleb-Thanks-for-your-payment-mobile.png" width="200">
 
