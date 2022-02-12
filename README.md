@@ -27,9 +27,33 @@ Easy to add to your current application, no need for complicated integration ste
 - [ ] Feedback Request Template
 - [ ] Reminder Template
 
-## How to Use
+## How to Install
 
-* Copy files and folders to the same structure within your Laravel application.
+Install this library on your application
+
+```sh
+composer require --dev simplepleb/laravel-email-templates
+```
+
+Automatically copy files and folders to the same structure within you Laravel application.
+
+```php
+php artisan vendor:publish --provider=Pleb\\EmailTemplatesServiceProvider
+```
+
+If you'd like to copy only parts of the files, you can use tags.
+
+```php
+php artisan vendor:publish --tag=pleb-email-templates-config    // to copy config files
+php artisan vendor:publish --tag=pleb-email-templates-views     // to copy views files
+php artisan vendor:publish --tag=pleb-email-templates-lang      // to copy lang files
+php artisan vendor:publish --tag=pleb-email-templates-img       // to copy img files
+php artisan vendor:publish --tag=pleb-email-templates-app       // to copy app files
+```
+
+### Manually
+
+Alternatively, you can copy the files yourself to your Laravel application.
 
 ```bash
     /config/pleb.php 
@@ -38,6 +62,8 @@ Easy to add to your current application, no need for complicated integration ste
     /public/assets/img/email/*
     /app/Mail/*
 ```
+
+## How to Use
 
 * Edit the values in ``` config/pleb.php ``` and ``` /resources/lang/en/pleb.php ``` 
 
