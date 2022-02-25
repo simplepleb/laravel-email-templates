@@ -1,0 +1,25 @@
+{
+    "name": "simplepleb/laravel-email-templates",
+    "description": "Laravel Email Templates (Blade)",
+    "keywords": [
+        "php",
+        "email",
+        "templates",
+        "laravel"
+    ],
+    "license": "GPL-3.0",
+    "require": { },
+    "autoload": {
+        "psr-4": {
+            "Pleb\\": "./"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Pleb\\EmailTemplatesServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev"
+}
