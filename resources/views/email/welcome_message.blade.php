@@ -517,7 +517,7 @@
                                                 <table border="0" align="center" cellpadding="0" cellspacing="0" role="presentation">
                                                     <tr>
                                                         <td   class="rwd-on-mobile" align="center" valign="middle" height="36" style="height: 36px;">
-                                                            @if( config('pleb.mail.instagram_url') != '')
+                                                            @if( config('pleb.mail.facebook_url') != '')
                                                                 <table border="0" align="center" cellpadding="0" cellspacing="0" role="presentation">
                                                                     <tr>
                                                                         <td width="10"></td>
